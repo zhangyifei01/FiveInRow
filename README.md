@@ -28,6 +28,7 @@ The size of checkerboard is 15*15
 
 # AI Scoring Strategy
 ![AI scoring strategy](https://img-blog.csdnimg.cn/20200720232245396.png)
+
 According to my previous position *position1* and others' previous position *position2*, there are **5 points** for each of position on **8 directions**, then scoring every point. If one point has a chess, its score is 0.
 
 For whole 15*15 chessboard, there are 572 5-tuples, the score of scoring point is the sum of all 5-tuples which including this point.
@@ -58,7 +59,10 @@ After putting down the chess pieces, go up-down, left-right, upper left-lower ri
 
 # Playing Show
 You can see my playing.
+
 ![Show1](https://img-blog.csdnimg.cn/20200720235528639.png)
+
 ![Show2](https://img-blog.csdnimg.cn/20200720235544918.png)
+
 ![Show3](https://img-blog.csdnimg.cn/20200720235627378.png)
 
