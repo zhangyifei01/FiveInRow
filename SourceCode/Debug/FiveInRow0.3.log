@@ -1,0 +1,42 @@
+﻿生成启动时间为 2018/12/12 14:38:33。
+     1>项目“D:\中科院秋季课程_张宜飞\C++程序设计\FiveInRow0.3\FiveInRow0.3\FiveInRow0.3.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt aiplayer.cpp chessboard.cpp chessplayer.cpp fiveinrow.cpp monitor.cpp position.cpp timer.cpp
+         timer.cpp
+         position.cpp
+         monitor.cpp
+     1>d:\中科院秋季课程_张宜飞\c++程序设计\fiveinrow0.3\fiveinrow0.3\monitor.cpp(61): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\conio.h(458): note: 参见“kbhit”的声明
+     1>d:\中科院秋季课程_张宜飞\c++程序设计\fiveinrow0.3\fiveinrow0.3\monitor.cpp(154): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\conio.h(458): note: 参见“kbhit”的声明
+     1>d:\中科院秋季课程_张宜飞\c++程序设计\fiveinrow0.3\fiveinrow0.3\monitor.cpp(246): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\conio.h(458): note: 参见“kbhit”的声明
+     1>d:\中科院秋季课程_张宜飞\c++程序设计\fiveinrow0.3\fiveinrow0.3\monitor.cpp(339): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\conio.h(458): note: 参见“kbhit”的声明
+     1>d:\中科院秋季课程_张宜飞\c++程序设计\fiveinrow0.3\fiveinrow0.3\monitor.cpp(466): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\conio.h(458): note: 参见“kbhit”的声明
+     1>d:\中科院秋季课程_张宜飞\c++程序设计\fiveinrow0.3\fiveinrow0.3\monitor.cpp(648): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\conio.h(458): note: 参见“kbhit”的声明
+         fiveinrow.cpp
+         chessplayer.cpp
+         chessboard.cpp
+         aiplayer.cpp
+     1>d:\中科院秋季课程_张宜飞\c++程序设计\fiveinrow0.3\fiveinrow0.3\aiplayer.cpp(63): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+         正在生成代码...
+     1>d:\中科院秋季课程_张宜飞\c++程序设计\fiveinrow0.3\fiveinrow0.3\chessboard.cpp(1434): warning C4700: 使用了未初始化的局部变量“havechess”
+     1>d:\中科院秋季课程_张宜飞\c++程序设计\fiveinrow0.3\fiveinrow0.3\chessboard.cpp(1435): warning C4700: 使用了未初始化的局部变量“chessposition”
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\中科院秋季课程_张宜飞\C++程序设计\FiveInRow0.3\Debug\FiveInRow0.3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\中科院秋季课程_张宜飞\C++程序设计\FiveInRow0.3\Debug\FiveInRow0.3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\中科院秋季课程_张宜飞\C++程序设计\FiveInRow0.3\Debug\FiveInRow0.3.lib" /MACHINE:X86 Debug\aiplayer.obj
+         Debug\chessboard.obj
+         Debug\chessplayer.obj
+         Debug\fiveinrow.obj
+         Debug\monitor.obj
+         Debug\position.obj
+         Debug\timer.obj
+         FiveInRow0.3.vcxproj -> D:\中科院秋季课程_张宜飞\C++程序设计\FiveInRow0.3\Debug\FiveInRow0.3.exe
+     1>已完成生成项目“D:\中科院秋季课程_张宜飞\C++程序设计\FiveInRow0.3\FiveInRow0.3\FiveInRow0.3.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:09.43
