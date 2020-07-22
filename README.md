@@ -1,3 +1,5 @@
+# Game FiveInRow (Gobang? Gomoku? Five in a Row)
+
 # How to Play
 
 Hello, welcome to my game, you need to known that:
